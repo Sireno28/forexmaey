@@ -1,0 +1,58 @@
+ @media screen and (max-width:900px) {
+         main{    
+        margin-top:50px;
+        display: flex;
+        flex-direction:column;
+       
+       }
+        img{
+       width: 400px;
+       image-orientation: from-image;
+       padding-left:10px;
+       padding-top: 30px;
+        }
+     
+        form{
+       flex-direction: column;
+       display: flex;
+       width: 80%;
+        }
+        form [type="submit"]{
+       line-height: 5px;
+       padding: 15px;
+       border-radius:20px;
+       width:40%;
+       background-color: rgb(198, 190, 190);
+       font-weight: bold;
+        }        
+        form [type="submit"]{
+       cursor: pointer;
+        }
+    
+        input{
+       margin-top: 15px;
+       line-height:20px;
+       padding: 15px;
+       border-radius: 25px;
+       font-size: medium;
+        }
+        #cta{
+        text-align: center;
+        }
+        #contato{
+       align-content: center;
+        }
+    
+        footer {
+       text-align: center;
+       padding: 20px;
+       background: #520082;
+       color: white;
+       bottom: 0;
+       width: 100%;
+        }
+ }      
+
+        
+
+    
