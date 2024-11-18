@@ -8,7 +8,7 @@
  header{
     display:flex ;
     flex-direction: row;
-    justify-content: space-betwen 10px;
+    justify-content: space-betwen 5px;
     align-items: center;
     }
         img{
