@@ -5,6 +5,12 @@
         flex-direction:column;
        
        }
+ header{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
         img{
        width: 400px;
        image-orientation: from-image;
